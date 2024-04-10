@@ -1,17 +1,14 @@
 /**
- * @name ClearVision
- * @author ClearVision Team
- * @version 6.9.0
- * @description Highly customizable theme for BetterDiscord.
- * @source https://github.com/ClearVision/ClearVision-v6
- * @website https://clearvision.github.io
- * @invite dHaSxn3
+ * @name Pis Suni Kropli
+ * @author Aleks (ع)
+ * @version 1.0.0
+ * @description Tu tak i daunis!
  */
 
 /* Credits to Zerthox for making the original theme. */
 
 /* IMPORT CSS */
-@import url(https://clearvision.github.io/ClearVision-v6/main.css);
+@import url(https://TastyD.github.io/yupp/main.css);
 
 /* SETTINGS */
 :root {
@@ -112,4 +109,17 @@
   --bd-blue: var(--main-color); /* betterdiscord main color [default: var(--main-color)] */
   --bd-blue-hover: var(--hover-color); /* betterdiscord hover color [default: var(--hover-color)] */
   --bd-blue-active: var(--hover-color); /* betterdiscord active color [default: var(--hover-color)] */
+}
+
+
+.fullscreen-bg video,
+.fullscreen-bg-video{
+  position: fixed;
+  top: 50%; left: 50%;
+  z-index: -100;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
 }
