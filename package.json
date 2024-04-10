@@ -1,5 +1,5 @@
 {
-  "name": "clearvision",
+  "name": "pissunikropli",
   "description": "Highly customizable theme for BetterDiscord.",
   "private": true,
   "scripts": {
@@ -15,25 +15,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ClearVision/ClearVision-v6.git"
+    "url": "https://github.com/TastyD/yupp.git"
   },
-  "author": "Zerthox",
-  "contributors": [
-    "Leozard",
-    "NyxIsBad",
-    "LeafyLuigi",
-    "BabyBoySnow",
-    "Mentalscars",
-    "nihaals",
-    "OmgDani",
-    "untuned",
-    "xcruxiex"
-  ],
+  "author": "Aleks",
   "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/ClearVision/ClearVision-v6/issues"
-  },
-  "homepage": "https://clearvision.github.io",
+  "homepage": "https://TastyD.github.io",
   "devDependencies": {
     "autoprefixer": "^10.4.4",
     "postcss-cli": "^9.1.0",
