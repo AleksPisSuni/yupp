@@ -1,7 +1,7 @@
 {
-  "name": "clearvision",
-  "version": "6.0.0-beta.2.0",
-  "description": "Public Beta for ClearVision v6.",
+  "name": "pissunikropli",
+  "version": "1.0.0",
+  "description": "Pis Suni Kropli by Aleks.",
   "private": true,
   "scripts": {
     "clean": "rimraf {test,public}",
@@ -13,14 +13,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ClearVision/v6.git"
+    "url": "git+https://github.com/TastyD/yupp.git"
   },
-  "author": "Zerthox",
+  "author": "Aleks",
   "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/ClearVision/v6/issues"
-  },
-  "homepage": "https://github.com/ClearVision/v6#readme",
+  "homepage": "https://github.com/TastyD/yupp#readme",
   "devDependencies": {
     "autoprefixer": "^9.6.1",
     "postcss-cli": "^6.1.3",

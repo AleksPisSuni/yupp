@@ -1,9 +1,9 @@
 @use "sass:map";
 
 // VERSION
-$version: "6-beta.2.0";
+$version: "1.0.0";
 
-/*! ClearVision v#{$version} by Zerthox */
+/*! Pis Suni Kropli v#{$version} by Aleks */
 
 // CONSTANTS
 $constants: (
@@ -16,12 +16,12 @@ $constants: (
 	),
 	text: (
 		titlebar: (
-			main: "ClearVision",
+			main: "Pis Suni Kropli",
 			version: "v#{$version}",
-			short: "CV v6"
+			short: "CV v1"
 		),
 		account: (
-			main: "ClearVision",
+			main: "Pis Suni Kropli",
 			version: "v#{$version}"
 		)
 	)

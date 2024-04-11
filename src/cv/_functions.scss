@@ -7,7 +7,7 @@
 	@return discordselectors.class($query);
 }
 
-/// Get a variable from the ClearVision variables map
+/// Get a variable from the Pis Suni Kropli variables map
 /// @param {string} $id identification for a variable
 /// @return {*} variable
 @function cv($id) {
@@ -25,18 +25,18 @@
 		$result: variables.$discord;
 	}
 	@if not $result {
-		@error "#{$type} is not a valid ClearVision variable set";
+		@error "#{$type} is not a valid Pis Suni Kropli variable set";
 	}
 	@while string.index($query, ".") {
 		$result: map.get($result, string.slice($query, 0, string.index($query, ".") - 1));
 		@if not $result {
-			@error "Property #{$id} not found in ClearVision #{$result} set";
+			@error "Property #{$id} not found in Pis Suni Kropli #{$result} set";
 		}
 		$query: string.slice($query, string.index($query, ".") + 1);
 	}
 	$result: map.get($result, $query);
 	@if not $result {
-		@error "Property #{$query} not found in ClearVision #{$type} set";
+		@error "Property #{$query} not found in Pis Suni Kropli #{$type} set";
 	}
 	@return $result;
 }
