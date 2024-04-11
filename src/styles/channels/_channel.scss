@@ -169,7 +169,7 @@
 // ICONS
 #{cn("FluxContainer(DropTarget(DragSource(TextChannel)))" actionIcon)} {
 	&[name=Gear] {
-		background: url(https://clearvision.gitlab.io/icons/settings.svg) no-repeat center/18px;
+		background: url(https://alekspissuni.gitlab.io/icons/settings.svg) no-repeat center/18px;
 		&:hover {
 			animation: cv-spin 2.5s linear infinite;
 		}
@@ -178,7 +178,7 @@
 		}
 	}
 	&[name=Invite] {
-		background: url(https://clearvision.gitlab.io/icons/person_add.svg) no-repeat center/18px;
+		background: url(https://alekspissuni.gitlab.io/icons/person_add.svg) no-repeat center/18px;
 		> path {
 			display: none;
 		}
