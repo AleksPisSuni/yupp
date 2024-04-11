@@ -100,13 +100,13 @@
 		}
 	}
 	%messageReactionButton {
-		background: url(https://TastyD.gitlab.io/icons/emote.svg) center/100% no-repeat;
+		background: url(https://clearvision.gitlab.io/icons/emote.svg) center/100% no-repeat;
 		&:hover {
 			opacity: .7 !important;
 		}
 	}
 	%messageOptionsButton {
-		background: url(https://TastyD.gitlab.io/icons/settings.svg) center/100% no-repeat;
+		background: url(https://clearvision.gitlab.io/icons/settings.svg) center/100% no-repeat;
 		&:hover,
 		&%messageButtonPopoutOpen {
 			animation: cv-spin 2.5s linear infinite;
